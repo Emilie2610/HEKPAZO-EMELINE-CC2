@@ -1,0 +1,121 @@
+h1{
+    text-align: center;
+    color:red ;
+    text-decoration: underline;
+
+}
+
+h2{
+    color: green;
+}
+
+.para{
+    color: cornflowerblue;
+}
+.image2{
+    box-shadow: 40%;
+}
+
+
+
+
+
+
+/*Exercice 2*/
+.el{
+background-color: blue;
+height: 280px;
+width: 280px;
+column-gap: calc(35deg);
+
+}
+
+
+
+/*Exercice 3*/
+.one {
+align-items: center;
+color: aliceblue;
+background-color: black;
+display: flex;
+justify-items: flex-end;
+
+
+}
+
+.two{
+   flex-direction: row; 
+   justify-items: flex-start;
+   color: aliceblue;
+   background-color: black;
+   display: flex;
+}
+
+#lk{
+   width: 120px;
+   color: black;
+   background-color: aliceblue; 
+}
+
+#lp{
+    color: aliceblue;
+    background-color: black;
+}
+
+
+
+/*Exercice 4*/
+.three{
+    width: 70%;
+    height: 400px;
+    position: relative;
+    left: 200px;
+    top:100px;
+    border-color: black;
+}
+
+img{
+    width: 10%;
+    height: 30px ;
+    image-rendering: -moz-crisp-edges;
+    
+}
+.container-fluid{
+    text-align: inherit;
+
+}
+.haut{
+    display: flex;
+    position:relative ;
+    top: 0%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bas{
+    display: flex;
+    position:relative ;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.min {
+    display: flex;
+    position:relative ;
+    align-self: center; 
+    left: 210px;
+}
+
+
+
+/*Exercice 5*/
+#boite{
+    background-color: red;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    animation-name: redBox ;
+    animation-duration: 50ms;
+    animation-iteration-count: calc(0%, 50%, 100%);
+}
